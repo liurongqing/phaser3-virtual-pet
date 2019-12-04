@@ -106,6 +106,9 @@ export default class Main extends Phaser.Scene {
     // @ts-ignore
     this.scene.uiReady()
 
+    //@ts-ignore
+    this.scene.uiBlocked = true
+
     // @ts-ignore
     this.setAlpha(0.5)
 
