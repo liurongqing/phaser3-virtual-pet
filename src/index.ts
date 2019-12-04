@@ -12,15 +12,17 @@ const config: any = {
     mode: Phaser.Scale.ENVELOP,
     parent: 'app',
     autoCenter: Phaser.Scale.CENTER_BOTH,
-    width: 750,
-    height: 1334,
+    width: 360,
+    height: 640,
+    title: '虚拟宠物',
+    pixelArt: false, // 本身就是像素元素，可以设置为false
     min: {
-      width: 750,
-      height: 1334
+      width: 360,
+      height: 640
     },
     max: {
-      width: 750,
-      height: 1334
+      width: 360,
+      height: 640
     }
   },
   scene
